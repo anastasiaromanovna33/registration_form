@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient(to top, #f1f2b5, #135058);
+}
+
+header{
+    height: 100px;
+}
+
+main{
+    height: 500px;
+}
+
+.big_user{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+#username, #password{
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 40px;
+    width: 250px;
+    height: 20px;
+    background-color: #acc0b2;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+
+.username, .password{
+    margin: 10px;
+    padding: 5px;
+}
+
+.password{
+    margin-bottom: 20px;
+}
+
+.small_user, .lock{
+    opacity: 50%;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.button{
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10px;
+}
+
+button{ 
+    margin-top: 15px;
+    font-size: 15px;
+    opacity: 75%;
+    border: none;
+    color: lightgrey;
+    background-color: #40716b;
+    cursor: pointer;
+    width: 200px;
+    height: 45px;
+}
+
+.forgot, .remember{
+    display: inline;
+}
+
+label{ 
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.forgot{
+    margin-top: 20px;
+    margin-left: 140px;
+}
+
+a{
+    text-decoration: none;
+    color: lightgrey;
+    font-size: 12px;
+    font-family: 'Raleway', italic;
+    font-style: italic;
+}
+
+label input {
+   display: none;
+}
+
+label span {
+    opacity: 70%;
+    margin-right: 10px;
+    height: 5px;
+    width: 5px;
+    border: none;
+    display: inline-block;
+    position: relative;
+    background-color:#40716b;
+    padding:3px;
+  }
+
+[type=checkbox]:checked + span:before {
+    content: '\2714';
+    position: absolute;
+    top: -5px;
+    left: 0;
+    font-size:15px;
+    color: white;
+    
+}
+  
+
+footer{
+    height: 100px;
+}
