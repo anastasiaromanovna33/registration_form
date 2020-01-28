@@ -1,30 +1,30 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     background-image: linear-gradient(to top, #f1f2b5, #135058);
 }
 
-header{
+header {
     height: 100px;
 }
 
-main{
+main {
     height: 500px;
 }
 
-.big_user{
+.big_user {
     margin-bottom: 15px;
     text-align: center;
 }
 
-form{
+form {
     text-align: center;
 }
 
-#username, #password{
+#username, #password {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -37,28 +37,28 @@ form{
     font-weight: bold;
 }
 
-.username, .password{
+.username, .password {
     margin: 10px;
     padding: 5px;
 }
 
-.password{
+.password {
     margin-bottom: 20px;
 }
 
-.small_user, .lock{
+.small_user, .lock {
     opacity: 50%;
     position: absolute;
     margin-top: 12px;
     margin-left: 20px;
 }
 
-.button{
+.button {
     font-family: 'Raleway', sans-serif;
     margin-top: 10px;
 }
 
-button{ 
+button { 
     margin-top: 15px;
     font-size: 15px;
     opacity: 75%;
@@ -70,27 +70,27 @@ button{
     height: 45px;
 }
 
-.forgot, .remember{
+.forgot, .remember {
     display: inline;
 }
 
-label{ 
+label { 
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     color: white;
     cursor: pointer;
 }
 
-.forgot{
+.forgot {
     margin-top: 20px;
     margin-left: 140px;
 }
 
-a{
+a {
     text-decoration: none;
     color: lightgrey;
     font-size: 12px;
-    font-family: 'Raleway', italic;
+    font-family: 'Raleway';
     font-style: italic;
 }
 
@@ -119,8 +119,7 @@ label span {
     color: white;
     
 }
-  
 
-footer{
+footer {
     height: 100px;
 }
